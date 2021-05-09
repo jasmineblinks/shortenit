@@ -13,5 +13,6 @@
     display: none;
 }
 
-
-/* Montserrat', sans-serif */
+.list_head{
+    font-family:'Montserrat', sans-serif  ;
+}

@@ -21,7 +21,7 @@ const Header = () => {
       <section className={classes.logo}>
                 <h2>Jasmyne</h2>
             </section>
-            <ul>
+            <ul className={classes.list_head}>
                 <li>Home</li>
                 <li>About</li>
                 <li>Contact</li>
