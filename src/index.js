@@ -5,6 +5,7 @@ import App from './App';
 import Header from './components/header/header'
 import reportWebVitals from './reportWebVitals';
 import './fonts/Lobster-Regular.ttf'
+import './fonts/Montserrat-Bold.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

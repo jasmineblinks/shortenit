@@ -17,7 +17,18 @@ const Header = () => {
             </ul>
         </header>
       </section>
-      <section className={classes.desktop}></section>
+      <section className={classes.desktop}>
+      <section className={classes.logo}>
+                <h2>Jasmyne</h2>
+            </section>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <button>Sign Up</button>
+            <button>Login</button>
+      </section>
     </div>
   );
 };
