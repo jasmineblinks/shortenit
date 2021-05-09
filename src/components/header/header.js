@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./header.module.css";
-import '.../fonts/Lobster-Regular.ttf';
+
 
 const Header = () => {
   return (
     <div className={classes.container}>
       <section className={classes.mobile}>
         <header>
-            <section>
+            <section className={classes.logo}>
                 <h2>Jasmyne</h2>
             </section>
             <ul>
