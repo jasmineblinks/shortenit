@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./header.module.css";
+import '.../fonts/Lobster-Regular.ttf';
 
 const Header = () => {
   return (
