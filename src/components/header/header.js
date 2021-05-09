@@ -6,7 +6,9 @@ const Header = () => {
     <div className={classes.container}>
       <section className={classes.mobile}>
         <header>
-            <div></div>
+            <section>
+                <h2>Jasmyne</h2>
+            </section>
             <ul>
                 <li>Home</li>
                 <li>About</li>
