@@ -37,6 +37,11 @@
 .logo {
   margin: 20px;
 }
+.it {
+  color: #f67001;
+  font-family: "Lobster", cursive;
+  font-size: 15px;
+}
 .logo h2 {
   color: #ffffff;
   font-family: "Lobster", cursive;
@@ -87,8 +92,12 @@
     color: #ffffff;
     font-family: "Lobster", cursive;
     font-size: 25px;
-
     line-height: 60px;
+  }
+  .it {
+    color: #f67001;
+    font-family: "Lobster", cursive;
+    font-size: 25px;
   }
   .listItem {
     display: flex;

@@ -10,7 +10,9 @@ const Header = () => {
       <section className={classes.mobile}>
         <header className={classes.header}>
           <section className={classes.logo}>
-            <h2>JASMYNE</h2>
+            <h2>
+              SHORTEN<span className={classes.it}>IT</span>
+            </h2>
           </section>
 
           {isOpen !== true ? (
@@ -46,7 +48,9 @@ const Header = () => {
       <section className={classes.desktop}>
         <header className={classes.header}>
           <section className={classes.logo}>
-            <h2>JASMYNE</h2>
+            <h2>
+              SHORTEN<span className={classes.it}>IT</span>
+            </h2>
           </section>
           <ul className={classes.listItem}>
             <li>Home</li>
