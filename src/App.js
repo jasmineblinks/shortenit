@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import undraw from "./undraw.svg";
 import "./App.css";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           </p>
         </section>
         <section>
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={undraw} className="App-logo" alt="logo" />
         </section>
       </section>
       <p>
