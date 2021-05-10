@@ -17,6 +17,10 @@ function App() {
           <img src={undraw} className="App-logo" alt="logo" />
         </section>
         <button className="getStartedMob">Get Started</button>
+        <section className="shorten">
+          <input placeholder="Shorten a link here" /> <br />
+          <button className="btnShort">Shorten It</button>
+        </section>
       </section>
     </div>
   );
