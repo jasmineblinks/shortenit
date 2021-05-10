@@ -120,6 +120,8 @@
     line-height: 16px;
     text-align: center;
     color: #ffffff;
+    margin-left: 20px;
+    width: 100px;
   }
 
   .btnWhite {
@@ -134,5 +136,8 @@
     line-height: 16px;
     text-align: center;
     color: #f67001;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
   }
 }
