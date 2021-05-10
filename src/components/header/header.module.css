@@ -1,18 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+/* * {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
-.logo h2{
-    font-family:'Lobster', cursive; 
+.logo h2 {
+  font-family: "Lobster", cursive;
 }
-.desktop{
-    display: none;
+.desktop {
+  display: none;
 }
 
-.list_head{
-    font-family:'Montserrat', sans-serif  ;
+.listItem {
+  font-family: "Montserrat", sans-serif;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #525fe1;
+  align-items: center;
+  height: 100px;
+  position: relative;
+}
+.logo {
+  margin: 20px;
+}
+.logo h2 {
+  color: #ffffff;
+  font-family: "Lobster", cursive;
+  font-size: 15px;
+}
+.listItem {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+.listItem li {
+  list-style: none;
+  font-weight: bold;
+  /* font-size: 16px; */
+  margin: 5px;
+}
+.menu {
+  background-color: #ffffff;
+  position: absolute;
+  color: #525fe1;
+  width: 100%;
+  padding: 5px;
+  bottom: -100px;
+  top: 100px;
+}
+
+.desktop {
+  display: none;
+}
+@media screen and (min-width: 700px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: flex;
+  }
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #525fe1;
+    color: #ffffff;
+    align-items: center;
+  }
+
+  .logo h2 {
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    font-size: 25px;
+
+    line-height: 60px;
+  }
+  .listItem {
+    display: flex;
+    flex-direction: row;
+  }
+  .listItem li {
+    list-style: none;
+    font-weight: bold;
+    margin: 8px;
+  }
+  .btnOrange {
+    background: #f67001;
+    border-radius: 50px;
+    padding: 8px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .btnWhite {
+    background: #ffffff;
+    border-radius: 50px;
+    padding: 8px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #f67001;
+  }
 }
