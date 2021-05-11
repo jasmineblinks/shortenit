@@ -396,6 +396,37 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .contactUs input {
+    width: 670px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+
+    margin-bottom: 10px;
+    line-height: 35px;
+  }
+
+  .inputname {
+    margin-left: 150px;
+  }
+
+  textarea {
+    padding: 20px;
+    width: 85%;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    display: block;
+  }
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
