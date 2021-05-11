@@ -98,9 +98,15 @@ input {
   padding: 2rem;
   color: #525fe1;
 }
+.secondText h2 {
+  color: #525fe1;
+  margin-bottom: 20px;
+}
 .secondText p {
   text-align: left;
   line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 .App-dev {
   /* height: 40vmin; */
@@ -131,6 +137,7 @@ label {
 textarea {
   padding: 20px;
   width: 300px;
+  height: 100px;
   border: none;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -259,10 +266,15 @@ textarea {
     padding: 2rem;
     color: #525fe1;
   }
+  .secondText h2 {
+    font-size: 30px;
+    color: #525fe1;
+  }
   .secondText p {
     text-align: left;
     line-height: 25px;
     font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     width: 650px;
   }
   .App-dev {
