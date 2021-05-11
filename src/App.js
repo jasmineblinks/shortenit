@@ -53,16 +53,26 @@ function App() {
         <section className="contactUs">
           <h2>Contact Us</h2>
           <form>
-            <label>
-              Name:
-              <input type="text" name="name" />
-            </label>
+            <section className="inputText">
+              <label>
+                Name:
+                <br />
+                <input type="text" name="email address" />
+              </label>
 
-            <label>Email Address:</label>
-            <input type="text" name="email address" />
-            <label>Message:</label>
-            <textarea type="text" name="email address" />
-            <input className="submit" type="submit" value="Get In Touch" />
+              <label>
+                Email Address:
+                <br />
+                <input type="text" name="email address" />
+              </label>
+            </section>
+
+            <label className="inputname">
+              Message:
+              <br />
+              <textarea type="text" name="email address" />
+              <input className="submit" type="submit" value="Get In Touch" />
+            </label>
           </form>
         </section>
       </section>
