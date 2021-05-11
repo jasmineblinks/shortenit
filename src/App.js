@@ -25,6 +25,11 @@ function App() {
             <input placeholder="Shorten a link here" /> <br />
             <button className="btnShort">Shorten It</button>
           </section>
+
+          <section className="shortendesktop">
+            <input placeholder="Shorten a link here" />
+            <button className="btnShort">Shorten It</button>
+          </section>
           <section className="secondText">
             <h2>Who we are?</h2>
             <p>
