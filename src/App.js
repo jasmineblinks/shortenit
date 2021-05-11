@@ -1,8 +1,11 @@
+import React, { useState } from "react";
 import undraw from "./undraw.svg";
 import dev from "./dev.svg";
 import "./App.css";
 
 function App() {
+  const [value, setValue] = useState(null);
+  const [result, setResult] = useState();
   return (
     <div className="App">
       <section className="container">
