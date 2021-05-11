@@ -50,6 +50,21 @@ function App() {
             </section>
           </section>
         </section>
+        <section className="contactUs">
+          <h2>Contact Us</h2>
+          <form>
+            <label>
+              Name:
+              <input type="text" name="name" />
+            </label>
+
+            <label>Email Address:</label>
+            <input type="text" name="email address" />
+            <label>Message:</label>
+            <textarea type="text" name="email address" />
+            <input className="submit" type="submit" value="Get In Touch" />
+          </form>
+        </section>
       </section>
     </div>
   );

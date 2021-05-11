@@ -79,6 +79,8 @@ input {
   color: #ffffff;
   border-radius: 10px;
   border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   width: 150px;
   margin-top: 10px;
   margin-left: auto;
@@ -105,6 +107,48 @@ input {
   width: 80%;
   pointer-events: none;
   bottom: 20px;
+}
+.contactUs {
+  margin-top: 50px;
+  background-color: #f67001;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.contactUs h2 {
+  padding-top: 35px;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.contactUs input {
+  width: 300px;
+}
+textarea {
+  padding: 20px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.submit {
+  background-color: #525fe1;
+  padding: 5px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  width: 50px;
+  margin: auto;
+  /* margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; */
+  display: block;
 }
 @media screen and (min-width: 700px) {
   .firstContainer {
@@ -145,7 +189,7 @@ input {
     width: 380px;
     line-height: 25px;
     text-align: left;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -169,6 +213,7 @@ input {
     margin-right: auto;
     display: flex;
     align-items: center;
+    font-family: "Montserrat", sans-serif;
     justify-content: center;
     background-color: #f67001;
     width: 60%;
@@ -185,6 +230,8 @@ input {
     height: 50px;
     padding: 5px;
     color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     border-radius: 10px;
     border: none;
     width: 150px;
@@ -215,6 +262,7 @@ input {
   .secondText p {
     text-align: left;
     line-height: 25px;
+    font-family: "Montserrat", sans-serif;
     width: 650px;
   }
   .App-dev {
