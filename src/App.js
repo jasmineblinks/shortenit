@@ -66,13 +66,10 @@ function App() {
                 <input type="text" name="email address" />
               </label>
             </section>
-
-            <label className="inputname">
-              Message:
-              <br />
-              <textarea type="text" name="email address" />
-              <input className="submit" type="submit" value="Get In Touch" />
-            </label>
+            <label className="inputname">Message:</label>
+            <br />
+            <textarea type="text" name="email address" />
+            <button className="submit">Get In Touch</button>
           </form>
         </section>
       </section>

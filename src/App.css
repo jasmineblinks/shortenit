@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 .firstContainer {
   background-color: #525fe1;
   /* position: relative;
@@ -13,15 +14,18 @@
   pointer-events: none;
   bottom: 20px;
 }
+
 .mainheading {
   margin: auto;
   text-align: center;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
+
 .shortendesktop {
   display: none;
 }
+
 .mainText {
   margin-top: 10px;
 
@@ -33,9 +37,11 @@
   margin-bottom: 20px;
   color: #ffffff;
 }
+
 .getStartedDesk {
   display: none;
 }
+
 .getStartedMob {
   margin-top: 20px;
   margin-bottom: 80px;
@@ -53,12 +59,14 @@
   margin-left: 20px;
   width: 150px;
 }
+
 input {
   width: 100%;
   border-radius: 10px;
   border: none;
   padding: 10px;
 }
+
 .shorten {
   margin-top: -50px;
   margin-left: auto;
@@ -73,6 +81,7 @@ input {
   position: absolute;
   z-index: 10;
 }
+
 .btnShort {
   background-color: #525fe1;
   padding: 5px;
@@ -87,6 +96,7 @@ input {
   margin-right: auto;
   display: block;
 }
+
 .secondContainer {
   background-color: #ffffff;
   margin-bottom: 20px;
@@ -94,26 +104,31 @@ input {
   padding-top: 70px;
   /* z-index: ; */
 }
+
 .secondText {
   padding: 2rem;
   color: #525fe1;
 }
+
 .secondText h2 {
   color: #525fe1;
   margin-bottom: 20px;
 }
+
 .secondText p {
   text-align: left;
   line-height: 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
+
 .App-dev {
   /* height: 40vmin; */
   width: 80%;
   pointer-events: none;
   bottom: 20px;
 }
+
 .contactUs {
   margin-top: 50px;
   background-color: #f67001;
@@ -121,10 +136,12 @@ input {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
+
 .contactUs h2 {
   padding-top: 35px;
   margin-bottom: 20px;
 }
+
 /* .inputText {
   margin-left: 30px;
   display: block;
@@ -139,9 +156,11 @@ label {
   margin-left: 20px;
   margin-right: 10px;
 }
+
 .contactUs input {
   width: 300px;
 }
+
 textarea {
   padding: 20px;
   width: 300px;
@@ -151,30 +170,34 @@ textarea {
   margin-bottom: 10px;
   margin-left: px;
 }
+
 .submit {
   background-color: #525fe1;
-  padding: 5px;
+  padding: 10px;
   color: #ffffff;
   border-radius: 10px;
   border: none;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  width: 50px;
-  margin-left: 5px;
+  width: 200px;
+  margin: auto;
   /* margin-top: 10px;
   margin-left: auto;
   margin-right: auto; */
   display: block;
 }
+
 @media screen and (min-width: 700px) {
   .firstContainer {
     display: flex;
     justify-content: space-between;
     /* margin-left: 35px; */
   }
+
   .getStartedMob {
     display: none;
   }
+
   .getStartedDesk {
     display: block;
     margin-top: 20px;
@@ -190,9 +213,11 @@ textarea {
     color: #ffffff;
     width: 150px;
   }
+
   .fisrtSession {
     margin-left: 20px;
   }
+
   .mainheading {
     margin-top: 80px;
     margin-bottom: 25px;
@@ -201,6 +226,7 @@ textarea {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
   }
+
   .mainText {
     width: 380px;
     line-height: 25px;
@@ -213,6 +239,7 @@ textarea {
     margin-bottom: 25px;
     color: #ffffff;
   }
+
   .App-logo {
     /* height: 40vmin; */
     margin-right: -100px;
@@ -220,9 +247,11 @@ textarea {
     pointer-events: none;
     margin-bottom: 100px;
   }
+
   .shorten {
     display: none;
   }
+
   .shortendesktop {
     margin-top: -50px;
     margin-left: auto;
@@ -241,6 +270,7 @@ textarea {
     position: absolute;
     z-index: 10;
   }
+
   .btnShort {
     background-color: #525fe1;
     height: 50px;
@@ -256,6 +286,7 @@ textarea {
     /* margin-right: auto; */
     /* display: block; */
   }
+
   input {
     width: 70%;
     height: 50px;
@@ -264,6 +295,7 @@ textarea {
     border: none;
     padding: 10px;
   }
+
   .card {
     display: flex;
     align-items: center;
@@ -271,14 +303,17 @@ textarea {
     flex-direction: row-reverse;
     padding: 5em;
   }
+
   .secondText {
     padding: 2rem;
     color: #525fe1;
   }
+
   .secondText h2 {
     font-size: 30px;
     color: #525fe1;
   }
+
   .secondText p {
     text-align: left;
     line-height: 25px;
@@ -286,35 +321,41 @@ textarea {
     font-weight: bold;
     width: 650px;
   }
+
   .App-dev {
     /* height: 40vmin; */
     width: 100%;
     pointer-events: none;
     bottom: 20px;
   }
+
   .contactUs {
     display: flex;
 
     flex-direction: column;
   }
+
   .contactUs h2 {
     padding-top: 35px;
     margin: auto;
     font-size: 30px;
+    margin-bottom: 20px;
   }
+
   .inputText {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
   }
+
   .contactUs input {
-    width: 600px;
+    width: 530px;
     height: 60px;
-  }
-  input {
     margin: auto;
     display: block;
+    margin-bottom: 20px;
   }
+
   label {
     display: block;
     /* text-align: left; */
@@ -322,9 +363,14 @@ textarea {
     line-height: 35px;
     /* margin-left: 10px; */
   }
+
+  .inputname {
+    margin-left: 65px;
+  }
+
   textarea {
     padding: 20px;
-    width: 80%;
+    width: 90%;
     height: 200px;
     border: none;
     border-radius: 10px;
@@ -332,7 +378,24 @@ textarea {
     margin: auto;
     display: block;
   }
+
+  .submit {
+    background-color: #525fe1;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    width: 500px;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -358,6 +421,7 @@ textarea {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
