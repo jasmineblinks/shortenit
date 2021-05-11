@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import undraw from "./undraw.svg";
 import dev from "./dev.svg";
 import "./App.css";
+import shortenURL from "../util/shortenURL";
 
 function App() {
   const [value, setValue] = useState(null);
@@ -27,11 +28,23 @@ function App() {
           <section className="shorten">
             <input placeholder="Shorten a link here" /> <br />
             <button className="btnShort">Shorten It</button>
+            <pre id="the_result">{result}</pre>
           </section>
 
           <section className="shortendesktop">
-            <input placeholder="Shorten a link here" />
-            <button className="btnShort">Shorten It</button>
+            <input
+              value={value}
+              id="link_shortner"
+              type="search"
+              onChange={(e) => setValue(e.target.value)}
+              placeholder="Shorten a link here"
+            />
+            <button
+              className="btnShort"
+              onClick={() => shortenURL(value, setResult)}>
+              Shorten It
+            </button>
+            <pre id="the_result">{result}</pre>
           </section>
           <section className="card">
             <section className="secondText">
