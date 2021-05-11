@@ -19,12 +19,12 @@ function App() {
             <img src={undraw} className="App-logo" alt="logo" />
           </section>
           <button className="getStartedMob">Get Started</button>
+        </section>
+        <section className="secondContainer">
           <section className="shorten">
             <input placeholder="Shorten a link here" /> <br />
             <button className="btnShort">Shorten It</button>
           </section>
-        </section>
-        <section className="secondContainer">
           <section className="secondText">
             <h2>Who we are?</h2>
             <p>
