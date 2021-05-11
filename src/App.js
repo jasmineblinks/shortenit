@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import undraw from "./undraw.svg";
 import dev from "./dev.svg";
 import "./App.css";
-import shortenURL from "../util/shortenURL";
+import shortenURL from "./util/shortenURL";
 
 function App() {
   const [value, setValue] = useState(null);
