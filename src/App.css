@@ -125,17 +125,19 @@ input {
   padding-top: 35px;
   margin-bottom: 20px;
 }
-.inputText {
-  margin-left: 20px;
-}
-.inputname {
+/* .inputText {
   margin-left: 30px;
-}
+  display: block;
+} */
+/* .inputname {
+  margin-left: 40px;
+} */
 label {
   display: block;
   text-align: left;
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 .contactUs input {
   width: 300px;
@@ -147,6 +149,7 @@ textarea {
   border: none;
   border-radius: 10px;
   margin-bottom: 10px;
+  margin-left: px;
 }
 .submit {
   background-color: #525fe1;
@@ -291,6 +294,7 @@ textarea {
   }
   .contactUs {
     display: flex;
+
     flex-direction: column;
   }
   .contactUs h2 {
@@ -300,7 +304,33 @@ textarea {
   }
   .inputText {
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
+  }
+  .contactUs input {
+    width: 600px;
+    height: 60px;
+  }
+  input {
+    margin: auto;
+    display: block;
+  }
+  label {
+    display: block;
+    /* text-align: left; */
+    margin-bottom: 10px;
+    line-height: 35px;
+    /* margin-left: 10px; */
+  }
+  textarea {
+    padding: 20px;
+    width: 80%;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    display: block;
   }
 }
 /* @media (prefers-reduced-motion: no-preference) {
