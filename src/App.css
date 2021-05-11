@@ -19,6 +19,9 @@
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
+.shortendesktop {
+  display: none;
+}
 .mainText {
   margin-top: 10px;
 
@@ -157,12 +160,18 @@ input {
     pointer-events: none;
     margin-bottom: 100px;
   }
-  shortendesktop {
-    /* margin-top: -50px; */
-    /* margin-left: auto;
-    margin-right: auto; */
+  .shorten {
+    display: none;
+  }
+  .shortendesktop {
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f67001;
-    width: 100%;
+    width: 60%;
     height: 100px;
     margin-bottom: -100px;
     border-radius: 10px;
@@ -173,15 +182,46 @@ input {
   }
   .btnShort {
     background-color: #525fe1;
+    height: 50px;
     padding: 5px;
     color: #ffffff;
     border-radius: 10px;
     border: none;
     width: 150px;
-    margin-top: 10px;
-    /* margin-left: auto;
-  margin-right: auto; */
-    display: block;
+    margin-top: -0px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* display: block; */
+  }
+  input {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+    border: none;
+    padding: 10px;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 5em;
+  }
+  .secondText {
+    padding: 2rem;
+    color: #525fe1;
+  }
+  .secondText p {
+    text-align: left;
+    line-height: 25px;
+    width: 650px;
+  }
+  .App-dev {
+    /* height: 40vmin; */
+    width: 100%;
+    pointer-events: none;
+    bottom: 20px;
   }
 }
 /* @media (prefers-reduced-motion: no-preference) {
