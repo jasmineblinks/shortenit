@@ -352,7 +352,7 @@ textarea {
   }
 
   .contactUs input {
-    width: 530px;
+    width: 580px;
     height: 60px;
     margin: auto;
     display: block;
@@ -368,12 +368,13 @@ textarea {
   }
 
   .inputname {
-    margin-left: 65px;
+    margin-left: 80px;
+    margin-bottom: -10px;
   }
 
   textarea {
     padding: 20px;
-    width: 90%;
+    width: 88%;
     height: 200px;
     border: none;
     border-radius: 10px;
@@ -399,9 +400,9 @@ textarea {
   }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1600px) {
   .contactUs input {
-    width: 670px;
+    width: 650px;
     height: 60px;
     margin: auto;
     display: block;
@@ -416,17 +417,19 @@ textarea {
   }
 
   .inputname {
-    margin-left: 150px;
+    margin-left: 210px;
+    margin-bottom: -10px;
   }
 
   textarea {
     padding: 20px;
-    width: 85%;
+    width: 80%;
     height: 200px;
     border: none;
     border-radius: 10px;
-    margin-bottom: 10px;
-    margin: auto;
+    margin-bottom: 50px;
+
+    /* margin: auto; */
     display: block;
   }
 }
