@@ -1,0 +1,33 @@
+.container {
+  padding-top: 30px;
+  height: 200px;
+  background-color: #01184e;
+  color: #ffffff;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 50px;
+}
+.socialIcon {
+  align-items: center;
+}
+.icons {
+  display: flex;
+  margin: auto;
+}
+.icons li {
+}
+@media screen and (min-width: 700px) {
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}

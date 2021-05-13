@@ -1,18 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Header from './components/header/header'
-import reportWebVitals from './reportWebVitals';
-import './fonts/Lobster-Regular.ttf'
-import './fonts/Montserrat-Bold.ttf'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import Header from "./components/header/header";
+import reportWebVitals from "./reportWebVitals";
+import "./fonts/Lobster-Regular.ttf";
+import "./fonts/Montserrat-Bold.ttf";
+import Footer from "./components/footer/footer";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
+    <Header />
     <App />
+    <Footer />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
