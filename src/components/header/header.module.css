@@ -29,7 +29,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #525fe1;
+  background-color: #01184e;
   align-items: center;
   height: 100px;
   position: relative;
@@ -62,7 +62,7 @@
 .menu {
   background-color: #ffffff;
   position: absolute;
-  color: #525fe1;
+  color: #01184e;
   width: 100%;
   padding: 5px;
   bottom: -100px;
@@ -83,7 +83,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background-color: #525fe1;
+    background-color: #01184e;
     color: #ffffff;
     align-items: center;
   }

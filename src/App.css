@@ -3,7 +3,7 @@
 }
 
 .firstContainer {
-  background-color: #525fe1;
+  background-color: #01184e;
   /* position: relative;
   z-index: 2; */
 }
@@ -83,7 +83,7 @@ input {
 }
 
 .btnShort {
-  background-color: #525fe1;
+  background-color: #01184e;
   padding: 5px;
   color: #ffffff;
   border-radius: 10px;
@@ -107,17 +107,18 @@ input {
 
 .secondText {
   padding: 2rem;
-  color: #525fe1;
+  color: #01184e;
 }
 
 .secondText h2 {
-  color: #525fe1;
+  color: #01184e;
   margin-bottom: 20px;
 }
 
 .secondText p {
   text-align: left;
   line-height: 25px;
+  font-size: 11px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
@@ -135,6 +136,7 @@ input {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  padding-bottom: 40px;
 }
 
 .contactUs h2 {
@@ -167,12 +169,12 @@ textarea {
   height: 100px;
   border: none;
   border-radius: 10px;
-  margin-bottom: 10px;
-  margin-left: px;
+  margin-bottom: 20px;
+  margin-top: -20px;
 }
 
 .submit {
-  background-color: #525fe1;
+  background-color: #01184e;
   padding: 10px;
   color: #ffffff;
   border-radius: 10px;
@@ -272,7 +274,7 @@ textarea {
   }
 
   .btnShort {
-    background-color: #525fe1;
+    background-color: #01184e;
     height: 50px;
     padding: 5px;
     color: #ffffff;
@@ -306,16 +308,17 @@ textarea {
 
   .secondText {
     padding: 2rem;
-    color: #525fe1;
+    color: #01184e;
   }
 
   .secondText h2 {
     font-size: 30px;
-    color: #525fe1;
+    color: #01184e;
   }
 
   .secondText p {
     text-align: left;
+    font-size: 14px;
     line-height: 25px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -331,7 +334,7 @@ textarea {
 
   .contactUs {
     display: flex;
-
+    margin-bottom: 50px;
     flex-direction: column;
   }
 
@@ -380,7 +383,7 @@ textarea {
   }
 
   .submit {
-    background-color: #525fe1;
+    background-color: #01184e;
     padding: 20px;
     color: #ffffff;
     border-radius: 10px;
