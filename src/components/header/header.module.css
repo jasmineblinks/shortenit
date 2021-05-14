@@ -112,7 +112,7 @@
   .btnOrange {
     background: #f67001;
     border-radius: 50px;
-    padding: 8px;
+    padding: 12px;
     border: none;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -122,13 +122,13 @@
     text-align: center;
     color: #ffffff;
     margin-left: 25px;
-    width: 100px;
+    width: 110px;
   }
 
   .btnWhite {
     background: #ffffff;
     border-radius: 50px;
-    padding: 8px;
+    padding: 12px;
     border: none;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -139,6 +139,6 @@
     color: #f67001;
     margin-left: 25px;
     margin-right: 40px;
-    width: 100px;
+    width: 110px;
   }
 }
