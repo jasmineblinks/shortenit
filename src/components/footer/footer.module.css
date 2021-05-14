@@ -18,9 +18,10 @@ h3 {
 .icons {
   display: flex;
   margin: auto;
+  width: 100%;
+  justify-content: center;
 }
-.icons li {
-}
+
 @media screen and (min-width: 700px) {
   h3 {
     font-family: "Montserrat", sans-serif;

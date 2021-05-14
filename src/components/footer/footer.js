@@ -11,20 +11,20 @@ const Footer = () => {
         <h3>UI Design + Built By Faith Pueneh</h3>
       </section>
       <section className={classes.socialIcon}>
-        <ul className={classes.icons}>
-          <li>
+        <div className={classes.icons}>
+          <span>
             {" "}
             <img src={fs} className={classes.facebook} alt="facebook" />{" "}
-          </li>
-          <li>
+          </span>
+          <span>
             {" "}
             <img src={ts} className={classes.twitter} alt="twitter" />
-          </li>
-          <li>
+          </span>
+          <span>
             {" "}
             <img src={ls} className={classes.linkedin} alt="linkedin" />
-          </li>
-        </ul>
+          </span>
+        </div>
       </section>
     </div>
   );
