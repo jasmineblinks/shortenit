@@ -28,9 +28,18 @@ function App() {
           <section className="shorten">
             <input placeholder="Shorten a link here" /> <br />
             <button className="btnShort">Shorten It</button>
-            <pre id="the_result" className="resultMobile">
-              {result}
-            </pre>
+            <div className="resultMobile">
+              <span id="mainurl" className="mainurl">
+                I am a boy
+              </span>
+              <div>
+                <span id="the_result" className="resulttext">
+                  I am a boy
+                </span>
+                <br />
+                <button className="clipsmob">Copy</button>
+              </div>
+            </div>
           </section>
 
           <section className="shortendesktop">
@@ -47,9 +56,17 @@ function App() {
               Shorten It
             </button>
           </section>
-          <pre id="the_result" className="resultdesktop">
-            {result}
-          </pre>
+          <div className="resultdesktop">
+            <span id="the_result" className="resulttext">
+              I am a boy
+            </span>
+            <div>
+              <span id="the_result" className="resulttext">
+                I am a boy
+              </span>
+              <button className="clips">Copy</button>
+            </div>
+          </div>
           <section className="card">
             <section className="secondText">
               <h2>Who we are?</h2>

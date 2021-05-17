@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "./header.module.css";
-import { FaTimes, FaAlignRight } from "react-icons/fa";
+import { FaTimes, FaAlignRight, FaSpinner } from "react-icons/fa";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
