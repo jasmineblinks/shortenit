@@ -60,10 +60,10 @@ function App() {
             <span id="the_result" className="resulttext">
               I am a boy
             </span>
-            <div>
-              <span id="the_result" className="resulttext">
-                I am a boy
-              </span>
+            <span id="the_result" className="resulttext">
+              I am a boy
+            </span>
+            <div className="">
               <button className="clips">Copy</button>
             </div>
           </div>
