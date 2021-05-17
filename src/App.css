@@ -188,12 +188,15 @@ textarea {
   margin-right: auto; */
   display: block;
 }
-pre {
-  background: linear-gradient(#ffffff, #01184e);
+.resultMobile {
+  background-color: #01184e;
+  color: #ffffff;
   border: none;
-  border-radius: 20px;
-  width: 250px;
-  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 280px;
+  height: 40px;
+  margin-top: 25px;
 }
 @media screen and (min-width: 700px) {
   .firstContainer {
@@ -201,7 +204,18 @@ pre {
     justify-content: space-between;
     /* margin-left: 35px; */
   }
-
+  .resultdesktop {
+    background-color: #01184e;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .getStartedMob {
     display: none;
   }

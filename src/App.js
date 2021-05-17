@@ -28,7 +28,9 @@ function App() {
           <section className="shorten">
             <input placeholder="Shorten a link here" /> <br />
             <button className="btnShort">Shorten It</button>
-            <pre id="the_result">{result}</pre>
+            <pre id="the_result" className="resultMobile">
+              {result}
+            </pre>
           </section>
 
           <section className="shortendesktop">
@@ -44,8 +46,10 @@ function App() {
               onClick={() => shortenURL(value, setResult)}>
               Shorten It
             </button>
-            <pre id="the_result">{result}</pre>
           </section>
+          <pre id="the_result" className="resultdesktop">
+            {result}
+          </pre>
           <section className="card">
             <section className="secondText">
               <h2>Who we are?</h2>
