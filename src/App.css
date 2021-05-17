@@ -188,7 +188,13 @@ textarea {
   margin-right: auto; */
   display: block;
 }
-
+pre {
+  background: linear-gradient(#ffffff, #01184e);
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  height: 30px;
+}
 @media screen and (min-width: 700px) {
   .firstContainer {
     display: flex;
