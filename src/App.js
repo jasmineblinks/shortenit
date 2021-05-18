@@ -11,6 +11,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [history, setHistory] = useState([]);
   const [isCopied, setIsCopied] = useState(false);
+  const [text, setText] = useState("");
 
   const onCopy = () => {
     setIsCopied(true);
