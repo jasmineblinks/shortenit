@@ -65,6 +65,7 @@ function App() {
 
           <section className="shortendesktop">
             <input
+              type="text"
               value={value}
               id="link_shortner"
               type="search"
@@ -97,7 +98,7 @@ function App() {
                 {value.shortened}
               </span>
               <div className="">
-                <CopyToClipboard onCopy={onCopy}>
+                <CopyToClipboard text={text} onCopy={onCopy}>
                   <button className="clips">Copy</button>
                 </CopyToClipboard>
                 <span className={`copy-feedback ${isCopied ? "active" : ""}`}>

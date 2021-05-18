@@ -467,6 +467,7 @@ textarea {
   .copy-feedback {
     margin-left: 1rem;
     visibility: hidden;
+    color: #ffffff;
   }
 
   .copy-feedback.active {
