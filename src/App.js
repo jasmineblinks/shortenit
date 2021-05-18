@@ -88,25 +88,27 @@ function App() {
                 //   }}
               ></FaSpinner>
             )}
-          </section>
-          {history.map((data, index) => (
-            <div key={index} className="resultMobile">
-              <span id="mainurl" className="mainurl">
-                {data.link}
-              </span>
-              <span id="the_result" className="resulttext">
-                {data.shortened}
-              </span>
-              <div className="">
-                <CopyToClipboard text={data.shortened} onCopy={onCopy}>
-                  <button className="clipsmob">Copy</button>
-                </CopyToClipboard>
-                <span className={`copy-feedback ${isCopied ? "active" : ""}`}>
-                  Copied
+
+            {history.map((data, index) => (
+              <div key={index} className="resultMobile">
+                <span id="mainurl" className="mainurl">
+                  {data.link}
                 </span>
+                <br />
+                <span id="the_result" className="resulttext">
+                  {data.shortened}
+                </span>
+                <div className="">
+                  <CopyToClipboard text={data.shortened} onCopy={onCopy}>
+                    <button className="clipsmob">Copy</button>
+                  </CopyToClipboard>
+                  <span className={`copy-feedback ${isCopied ? "active" : ""}`}>
+                    Copied
+                  </span>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </section>
 
           <section className="shortendesktop">
             <input

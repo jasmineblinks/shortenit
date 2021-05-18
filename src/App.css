@@ -91,7 +91,7 @@ input {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   cursor: pointer;
-  width: 150px;
+  width: 270px;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -194,12 +194,17 @@ textarea {
   color: #ffffff;
   border: none;
   padding: 10px;
+  width: 100%;
+  /* max-width: 80%; */
+  font-size: 14px;
   border-radius: 10px;
   text-align: center;
   width: 280px;
   text-align: center;
   height: 90px;
-  margin-top: 25px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
   /* margin-bottom: 50px; */
 }
 .resultdesktop {
@@ -215,6 +220,30 @@ textarea {
   padding: 3px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+}
+.copy-feedback {
+  margin-left: 1rem;
+  visibility: hidden;
+  color: #ffffff;
+}
+
+.copy-feedback.active {
+  visibility: visible;
+}
+.loaderIcon {
+  color: #ffffff !important;
+
+  /* margin-right: 25px !important; */
+  animation: spin 3s infinite linear !important;
+}
+
+@keyframes spin {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(1) rotate(360deg);
+  }
 }
 @media screen and (min-width: 700px) {
   .firstContainer {
