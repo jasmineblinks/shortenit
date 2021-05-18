@@ -94,7 +94,10 @@ function App() {
               <span id="the_result" className="resulttext">
                 {value.link}
               </span>
-              <span id="the_result" className="resulttext">
+              <span
+                id="the_result"
+                className="resulttext"
+                onChange={() => setText(value)}>
                 {value.shortened}
               </span>
               <div className="">
