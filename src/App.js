@@ -3,10 +3,30 @@ import undraw from "./undraw.svg";
 import dev from "./dev.svg";
 import "./App.css";
 import shortenURL from "./util/shortenURL";
+import { FaSpinner } from "react-icons/fa";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function App() {
-  const [value, setValue] = useState(null);
-  const [result, setResult] = useState();
+  const [value, setValue] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [history, setHistory] = useState([]);
+  const [isCopied, setIsCopied] = useState(false);
+
+  const onCopy = () => {
+    setIsCopied(true);
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 1000);
+  };
+  const shortIt = async (value) => {
+    setLoading(true);
+    const data = await shortenURL(value);
+    console.log(data);
+
+    //set
+    setHistory((prev) => [...prev, data]);
+    setLoading(false);
+  };
   return (
     <div className="App">
       <section className="container">
@@ -50,23 +70,38 @@ function App() {
               onChange={(e) => setValue(e.target.value)}
               placeholder="Shorten a link here"
             />
-            <button
-              className="btnShort"
-              onClick={() => shortenURL(value, setResult)}>
-              Shorten It
-            </button>
+            {loading === false ? (
+              <button className="btnShort" onClick={() => shortIt(value)}>
+                Shorten It
+              </button>
+            ) : (
+              <FaSpinner
+                size="35px"
+                className="loaderIcon"
+                // style={{
+                //   color: "#ffffff",
+
+                //   marginRight: "25px",
+                //   animation: "animation: spin infinite 20s linear",
+                //   }}
+              ></FaSpinner>
+            )}
           </section>
-          <div className="resultdesktop">
-            <span id="the_result" className="resulttext">
-              I am a boy
-            </span>
-            <span id="the_result" className="resulttext">
-              I am a boy
-            </span>
-            <div className="">
-              <button className="clips">Copy</button>
+          {history.map((value, index) => (
+            <div key={index} className="resultdesktop">
+              <span id="the_result" className="resulttext">
+                {value.link}
+              </span>
+              <span id="the_result" className="resulttext">
+                {value.shortened}
+              </span>
+              <div className="">
+                <CopyToClipboard onCopy={onCopy}>
+                  <button className="clips">Copy</button>
+                </CopyToClipboard>
+              </div>
             </div>
-          </div>
+          ))}
           <section className="card">
             <section className="secondText">
               <h2>Who we are?</h2>

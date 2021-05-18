@@ -229,7 +229,9 @@ textarea {
     background-color: #01184e;
     border: none;
     border-radius: 10px;
-    width: 50%;
+    width: 100%;
+    max-width: 80%;
+    font-size: 14px;
     display: flex;
     justify-content: space-around;
     height: 50px;
@@ -237,6 +239,7 @@ textarea {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
   }
   /* .results {
     display: flex;
@@ -460,6 +463,21 @@ textarea {
     margin-right: auto;
     display: block;
   }
+  .loaderIcon {
+    color: #ffffff !important;
+
+    /* margin-right: 25px !important; */
+    animation: spin 3s infinite linear !important;
+  }
+
+  @keyframes spin {
+    from {
+      transform: scale(1) rotate(0deg);
+    }
+    to {
+      transform: scale(1) rotate(360deg);
+    }
+  }
 }
 
 @media screen and (min-width: 1600px) {
@@ -469,6 +487,12 @@ textarea {
     margin: auto;
     display: block;
     margin-bottom: 20px;
+  }
+  .loaderIcon {
+    color: #ffffff !important;
+
+    /* margin-right: 25px !important; */
+    animation: spin 1s infinite linear !important;
   }
 
   label {
@@ -516,12 +540,21 @@ textarea {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes spin {
   from {
     transform: rotate(0deg);
   }
 
   to {
     transform: rotate(360deg);
+  }
+} */
+
+@keyframes spin {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(1) rotate(360deg);
   }
 }
