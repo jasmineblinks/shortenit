@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [history, setHistory] = useState([]);
   const [isCopied, setIsCopied] = useState(false);
-  const [text, setText] = useState("");
+  // const [text, setText] = useState("");
 
   const onCopy = () => {
     setIsCopied(true);
@@ -46,7 +46,7 @@ function App() {
           <button className="getStartedMob">Get Started</button>
         </section>
         <section className="secondContainer">
-          <section className="shorten">
+          {/* <section className="shorten">
             <input placeholder="Shorten a link here" /> <br />
             <button className="btnShort">Shorten It</button>
             <div className="resultMobile">
@@ -61,7 +61,52 @@ function App() {
                 <button className="clipsmob">Copy</button>
               </div>
             </div>
+          </section> */}
+
+          <section className="shorten">
+            <input
+              type="text"
+              value={value}
+              id="link_shortner"
+              type="search"
+              onChange={(e) => setValue(e.target.value)}
+              placeholder="Shorten a link here"
+            />
+            {loading === false ? (
+              <button className="btnShort" onClick={() => shortIt(value)}>
+                Shorten It
+              </button>
+            ) : (
+              <FaSpinner
+                size="35px"
+                className="loaderIcon"
+                // style={{
+                //   color: "#ffffff",
+
+                //   marginRight: "25px",
+                //   animation: "animation: spin infinite 20s linear",
+                //   }}
+              ></FaSpinner>
+            )}
           </section>
+          {history.map((data, index) => (
+            <div key={index} className="resultMobile">
+              <span id="mainurl" className="mainurl">
+                {data.link}
+              </span>
+              <span id="the_result" className="resulttext">
+                {data.shortened}
+              </span>
+              <div className="">
+                <CopyToClipboard text={data.shortened} onCopy={onCopy}>
+                  <button className="clipsmob">Copy</button>
+                </CopyToClipboard>
+                <span className={`copy-feedback ${isCopied ? "active" : ""}`}>
+                  Copied
+                </span>
+              </div>
+            </div>
+          ))}
 
           <section className="shortendesktop">
             <input
@@ -89,19 +134,16 @@ function App() {
               ></FaSpinner>
             )}
           </section>
-          {history.map((value, index) => (
+          {history.map((data, index) => (
             <div key={index} className="resultdesktop">
               <span id="the_result" className="resulttext">
-                {value.link}
+                {data.link}
               </span>
-              <span
-                id="the_result"
-                className="resulttext"
-                onChange={() => setText(value)}>
-                {value.shortened}
+              <span id="the_result" className="resulttext">
+                {data.shortened}
               </span>
               <div className="">
-                <CopyToClipboard text={text} onCopy={onCopy}>
+                <CopyToClipboard text={data.shortened} onCopy={onCopy}>
                   <button className="clips">Copy</button>
                 </CopyToClipboard>
                 <span className={`copy-feedback ${isCopied ? "active" : ""}`}>
