@@ -250,6 +250,7 @@ textarea {
     background-color: #ffffff;
     color: #01184e;
     border: none;
+    cursor: pointer;
     border-radius: 5px;
     padding: 5px;
     font-family: "Montserrat", sans-serif;
@@ -462,6 +463,14 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+  .copy-feedback {
+    margin-left: 1rem;
+    visibility: hidden;
+  }
+
+  .copy-feedback.active {
+    visibility: visible;
   }
   .loaderIcon {
     color: #ffffff !important;

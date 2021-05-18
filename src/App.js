@@ -99,6 +99,9 @@ function App() {
                 <CopyToClipboard onCopy={onCopy}>
                   <button className="clips">Copy</button>
                 </CopyToClipboard>
+                <span className={`copy-feedback ${isCopied ? "active" : ""}`}>
+                  Copied
+                </span>
               </div>
             </div>
           ))}
