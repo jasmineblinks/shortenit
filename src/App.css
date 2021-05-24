@@ -156,7 +156,7 @@ label {
   display: block;
   text-align: left;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-right: 10px;
 }
 
@@ -167,6 +167,8 @@ label {
 textarea {
   padding: 20px;
   width: 300px;
+  text-align: left;
+  margin-left: -5px;
   height: 100px;
   border: none;
   border-radius: 10px;
@@ -195,15 +197,14 @@ textarea {
   border: none;
   padding: 10px;
   width: 100%;
-  /* max-width: 80%; */
   font-size: 14px;
   border-radius: 10px;
   text-align: center;
-  width: 280px;
+  width: 290px;
   text-align: center;
   height: 90px;
-  margin-top: 15px;
-  margin-left: auto;
+  margin-top: 17px;
+  margin-left: -8px;
   margin-right: auto;
   /* margin-bottom: 50px; */
 }
@@ -213,10 +214,13 @@ textarea {
 .clipsmob {
   width: 60px;
   background-color: #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: #01184e;
   border: none;
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
   padding: 3px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -225,6 +229,14 @@ textarea {
   margin-left: 1rem;
   visibility: hidden;
   color: #ffffff;
+}
+.resulttextmob {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
 
 .copy-feedback.active {
@@ -243,6 +255,28 @@ textarea {
   }
   to {
     transform: scale(1) rotate(360deg);
+  }
+}
+@media screen and (min-width: 414px) {
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+  }
+
+  textarea {
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -20px;
   }
 }
 @media screen and (min-width: 700px) {

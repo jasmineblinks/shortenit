@@ -91,11 +91,11 @@ function App() {
 
             {history.map((data, index) => (
               <div key={index} className="resultMobile">
-                <span id="mainurl" className="mainurl">
+                {/* <span id="mainurl" className="mainurl">
                   {data.link}
-                </span>
-                <br />
-                <span id="the_result" className="resulttext">
+                </span> */}
+                {/* <br /> */}
+                <span id="the_result" className="resulttextmob">
                   {data.shortened}
                 </span>
                 <div className="">
