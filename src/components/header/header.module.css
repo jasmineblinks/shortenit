@@ -59,6 +59,13 @@
   /* font-size: 16px; */
   margin: 5px;
 }
+.listItem li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #01184e;
+  /* font-size: 16px; */
+  margin: 5px;
+}
 .menu {
   background-color: #ffffff;
   position: absolute;
@@ -79,6 +86,7 @@
   .desktop {
     display: flex;
   }
+
   .header {
     display: flex;
     width: 100%;
@@ -86,6 +94,13 @@
     background-color: #01184e;
     color: #ffffff;
     align-items: center;
+  }
+  .listItem li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    /* font-size: 16px; */
+    margin: 5px;
   }
 
   .logo h2 {

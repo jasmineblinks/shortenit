@@ -30,7 +30,7 @@ function App() {
   };
   return (
     <div className="App">
-      <section className="container">
+      <section id="home" className="container">
         <section className="firstContainer">
           <section className="fisrtSession">
             <h2 className="mainheading">Shorten your link </h2>
@@ -154,7 +154,7 @@ function App() {
               </div>
             </div>
           ))}
-          <section className="card">
+          <section id="about" className="card">
             <section className="secondText">
               <h2>Who we are?</h2>
               <p>
@@ -174,7 +174,7 @@ function App() {
             </section>
           </section>
         </section>
-        <section className="contactUs">
+        <section id="contact" className="contactUs">
           <h2>Contact Us</h2>
           <form>
             <section className="inputText">
