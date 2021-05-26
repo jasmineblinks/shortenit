@@ -55,9 +55,19 @@
   font-size: 16px;
   line-height: 16px;
   text-align: center;
-  color: #ffffff;
+  /* color: #ffffff; */
   margin-left: 20px;
   width: 150px;
+}
+.getStartedMob a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
 }
 
 input {
@@ -288,6 +298,7 @@ textarea {
   .resultMobile {
     display: none;
   }
+
   .resultdesktop {
     background-color: #01184e;
     border: none;
@@ -328,6 +339,16 @@ textarea {
   .getStartedMob {
     display: none;
   }
+  .getStartedDesk a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
 
   .getStartedDesk {
     display: block;
@@ -346,7 +367,7 @@ textarea {
   }
 
   .fisrtSession {
-    margin-left: 20px;
+    margin-left: 50px;
   }
 
   .mainheading {

@@ -38,12 +38,16 @@ function App() {
               Build your brand’s recognition and get detailed insights on how
               your links are performing.
             </p>
-            <button className="getStartedDesk">Get Started</button>
+            <button className="getStartedDesk">
+              <a href="#shorten">Get Started</a>
+            </button>
           </section>
           <section>
             <img src={undraw} className="App-logo" alt="logo" />
           </section>
-          <button className="getStartedMob">Get Started</button>
+          <button className="getStartedMob">
+            <a href="#shorten">Get Started</a>
+          </button>
         </section>
         <section className="secondContainer">
           {/* <section className="shorten">
@@ -63,7 +67,7 @@ function App() {
             </div>
           </section> */}
 
-          <section className="shorten">
+          <section id="shorten" className="shorten">
             <input
               type="text"
               value={value}

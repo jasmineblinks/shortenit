@@ -13,16 +13,20 @@ const Footer = () => {
       <section className={classes.socialIcon}>
         <div className={classes.icons}>
           <span>
-            {" "}
-            <img src={fs} className={classes.facebook} alt="facebook" />{" "}
+            <a href="https://web.facebook.com/pueneh.faithkb">
+              <img src={fs} className={classes.facebook} alt="facebook" />
+            </a>{" "}
+          </span>
+          <span>
+            <a href="https://twitter.com/PuenehFaith">
+              <img src={ts} className={classes.twitter} alt="twitter" />
+            </a>{" "}
           </span>
           <span>
             {" "}
-            <img src={ts} className={classes.twitter} alt="twitter" />
-          </span>
-          <span>
-            {" "}
-            <img src={ls} className={classes.linkedin} alt="linkedin" />
+            <a href="https://www.linkedin.com/in/faith-pueneh-6a17a6120/">
+              <img src={ls} className={classes.linkedin} alt="linkedin" />
+            </a>
           </span>
         </div>
       </section>
