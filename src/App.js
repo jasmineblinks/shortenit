@@ -71,6 +71,7 @@ function App() {
             <input
               type="text"
               value={value}
+              style={{ outline: "none" }}
               id="link_shortner"
               type="search"
               onChange={(e) => setValue(e.target.value)}
