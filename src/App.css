@@ -248,6 +248,9 @@ textarea {
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
+#link_shortner {
+  outline: none;
+}
 
 .copy-feedback.active {
   visibility: visible;
